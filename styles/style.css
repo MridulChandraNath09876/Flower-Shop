@@ -20,6 +20,31 @@ p{
    border: none;
    font-size: 20px;
    padding: 15px 28px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.primary-btn:hover{
+    background: #079f4c;
+    border: white;
+
+}
+
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+
 }
 header{
     background-color: rgba(229, 84, 115, 0.10);
@@ -53,6 +78,50 @@ header{
 
 .banner-image{
     width: 100%;
+    vertical-align: middle;
+}
+/* banner section ended here  */
+
+.feature-conatainer{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-/* banner section ended here  */
+/* our feature flower */
+
+.section-content{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+    padding: 0px 200px;
+}
+.flower{
+    border-radius: 300px 300px 0px 0px;
+    overflow: hidden; /* This is critical to clip inner content */
+    text-align: center;
+    
+}
+.flower-img{
+     border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.flower-img img{
+    width: 100%;
+}
+
+.pink{
+    background: rgb(189, 5, 149);
+}
+.turquoise{
+    background: turquoise;
+}
+
+.paleturquoise{
+    background: paleturquoise;
+}
