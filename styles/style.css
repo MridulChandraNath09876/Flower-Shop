@@ -171,3 +171,20 @@ header, #hot-deal{
 #hot-deal .hot-deal-image{
     max-width: 318px;
 }
+
+/* instagram image container */
+.img-section-heading{
+    max-width: 500px;
+   
+    margin: 20px auto;      
+}
+
+.img-section-heading .image-container{
+    display: flex;
+    justify-content: center;
+}
+.img-section-heading .image-container img{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
