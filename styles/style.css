@@ -95,7 +95,6 @@ header, #hot-deal{
 }
 
 .section-content{
-    
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -196,6 +195,8 @@ header, #hot-deal{
 }
 .newsletter-main{
     background: url(../images/newsletter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 122px 0px;
     text-align: center;
 }
@@ -213,4 +214,39 @@ header, #hot-deal{
    padding: 10px;
    font-size: 20px;
    outline: 1px solid green;
+}
+
+/* facility section */
+
+.facility-main{
+    padding: 50px 50px;
+}
+.facility-container{
+    background-color: bisque;
+    margin: 50px 50px;
+    border-radius: 30px;
+    padding: 100px ;
+}
+
+/* Footer section here */
+
+#footer{
+    background: black;
+    max-width: 100%;
+}
+
+.footer-container{
+    text-align: center;
+    color: white;
+    padding: 100px 100px;
+}
+.footer-container p{
+    color: beige;
+    margin: 30px auto;
+   
+}
+
+.footer-container .important{
+    color: #E55473;
+    
 }
