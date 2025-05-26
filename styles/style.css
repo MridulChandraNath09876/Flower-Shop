@@ -188,3 +188,29 @@ header, #hot-deal{
     height: 250px;
     padding: 20px;
 }
+
+
+/* newsletter */
+#newsletter{
+    margin: 128px 0;
+}
+.newsletter-main{
+    background: url(../images/newsletter-bg.png);
+    padding: 122px 0px;
+    text-align: center;
+}
+
+#newsletter form {
+    max-width: 800px;
+    margin: 20px auto;;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter  form input {
+   flex-grow: 1;
+   border: none;
+   padding: 10px;
+   font-size: 20px;
+   outline: 1px solid green;
+}
