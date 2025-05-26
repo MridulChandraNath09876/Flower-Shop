@@ -46,7 +46,7 @@ p{
     margin-bottom: 16px;
 
 }
-header{
+header, #hot-deal{
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -90,6 +90,10 @@ header{
 
 /* our feature flower */
 
+.feature{
+    margin: 30px 10px;
+}
+
 .section-content{
     
     display: flex;
@@ -114,7 +118,11 @@ header{
 .flower-img img{
     width: 100%;
 }
-
+.flower p{
+    font-weight: bold;
+    color: black;
+    margin: 20px 0px;
+}
 .pink{
     background: rgb(189, 5, 149);
 }
@@ -124,4 +132,42 @@ header{
 
 .paleturquoise{
     background: paleturquoise;
+}
+
+/* Hot deal section here  */
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    align-items: center;
+   
+}
+
+#hot-deal .hot-deal-text {
+    max-width: 75%;
+    max-width: 550px;
+    text-align: center;
+    
+}
+
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+   
+}
+
+#hot-deal .hot-deal-text h2 .important{
+    color: #E55473;
+}
+
+#hot-deal .hot-deal-image{
+    max-width: 318px;
 }
